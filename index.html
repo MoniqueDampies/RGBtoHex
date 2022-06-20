@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>RBG TO HEX CODE</title>
+  </head>
+  <body>
+    <h2>RGB to Hex code</h2>
+    <div class="container">
+      <div>
+        <label>Red Color (R)</label><br />
+        <input type="number" id="rgbR" placeholder="Red color code" />
+      </div>
+      <div>
+        <label>Green Color (G)</label><br />
+        <input
+          type="number"
+          id="rgbG"
+          placeholder="Green color code"
+        />
+      </div>
+      <div>
+        <label>Blue Color (B)</label><br />
+        <input
+          type="number"
+          id="rgbB"
+          placeholder="Blue color code"
+        />
+      </div>
+      <div>
+        <button id="generate">GENERATE HEX CODE</button>
+      </div>
+      <div>
+        <label>Hex Color Code:</label><br />
+        <div id="hex" class="colorC"></div>
+      </div>
+      <div>
+        <label>Preview</label>
+        <div id="color"></div>
+      </div>
+    </div>
+
+    <script src="./code.js"></script>
+  </body>
+</html>
