@@ -70,9 +70,9 @@ label {
     color: white;
     border-radius: 10px;
     border-style: none;
-    background: linear-gradient(145deg, #d87373, #ff8989);
+    text-shadow: 2px 4px 7px rgba(30, 20, 20, 0.5);
     box-shadow: 6px 6px 12px #d16f6f,
-        -6px -6px 12px #ff9191;
+        -6px -6px 12px rgb(255, 145, 145);
 }
 
 #rgbR {
